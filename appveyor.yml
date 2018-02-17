@@ -1,6 +1,9 @@
 version: "{build}"
 clone_folder: "c:/WORK"
 
+hosts:
+  localhost: "127.0.0.1"
+
 environment:
   global:
     CABOPTS: "--store-dir=c:/SR --http-transport=plain-http"
